@@ -43,4 +43,4 @@ def lectura():
 
 app = application = bottle.default_app()
 if __name__ == "__main__":
-    bottle.run(host='192.168.1.20', port=8095)
+    bottle.run(host='181.198.202.181', port=8095)
