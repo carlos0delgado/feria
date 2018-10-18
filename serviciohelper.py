@@ -144,8 +144,4 @@ def servicio2(accion=None):
 
 app = application = bottle.default_app()
 if __name__ == "__main__":
-<<<<<<< HEAD
-    bottle.run(host='http://181.198.202.181', port=8073)
-=======
-    bottle.run(host='192.168.0.120', port=8095)
->>>>>>> parent of 1a7a397... fda
+    bottle.run(host='192.168.0.120', port=8073)
