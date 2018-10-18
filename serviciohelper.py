@@ -26,7 +26,7 @@ def servicio(accion=None):
     print(conn)
     if tvfiltro is None:
         #lista = {'nombre':'Jhon','edad':25}
-        query = "select encode(imagen,'base64') as cantidad, autor as categoria from libro"
+        query = "select titulo as cantidad, autor as categoria from libro"
         cursor.execute(query)
         data=cursor.fetchall()
         print("aca")
