@@ -144,4 +144,4 @@ def servicio2(accion=None):
 
 app = application = bottle.default_app()
 if __name__ == "__main__":
-    bottle.run(host='192.168.0.120', port=8095)
+    bottle.run(host='192.168.0.120', port=8073)
