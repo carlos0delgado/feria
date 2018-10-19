@@ -1,3 +1,4 @@
+#!/usr/bin/python
 import bottle
 import re, json
 from bottle import route, request, response
